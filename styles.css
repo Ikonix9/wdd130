@@ -1,0 +1,36 @@
+/* 
+Step 4.1 open the styles.css file for editing (All code below goes inside it) */
+/*  Step 4.2: Limit the width of the main selector content area */
+main {
+    max-width: 840px;
+}
+/*  Step 4.3 Style declarations for the aside to a width of 200px and height auto */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
+
+    /* Steps 4.4 Set the img inside the aside container */
+aside img {
+    width: 200px;
+    height:auto;
+}
+/* Step 4.5: Change the general img rule for the profile image inside main */
+main img {
+    width: 150px;
+    height: auto;
+}
+/* Step 4.6: Change the existing paragraph padding property value to 0 pixels */
+p {
+    padding: 0;
+}
+/* Apply CSS to the footer element */
+footer {
+   margin-top: 2rem; 
+   border-top:1px solid;
+   text-align: center;
+}
