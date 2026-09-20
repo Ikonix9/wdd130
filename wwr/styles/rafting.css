@@ -1,0 +1,90 @@
+/* Root Variables for Colors and Fonts */
+:root {
+  --heading-font: 'Arial', sans-serif;
+  --primary-color: #004e64;
+  --accent1-color: #25a18e;
+}
+
+/* Typography */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Structural Spacing */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Footer Social Media Links */
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Hero Section Layout (Relative Container) */
+.hero {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero Background Image */
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Hero Title Overlay */
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff; /* White text for contrast */
+  box-sizing: border-box; /* Prevents width issues with padding */
+}
+
+/* Hero Article Overlay */
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+  border: 1px solid #ccc;
+}
+
+/* Image inside Hero Article */
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 12px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Global Image Constraints */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer Layout & Social Icons Sizing  */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+/* Footer Social Icon Sizing */
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+}
