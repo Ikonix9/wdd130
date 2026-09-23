@@ -1,4 +1,18 @@
-/* Root Variables for Colors and Fonts */
+
+/* 5. ✅ ADDED REQUIRED UNIVERSAL SELECTOR RESET RIGHT AT THE TOP */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+:root {
+  --heading-font: 'Arial', sans-serif;
+  --primary-color: #004e64;
+  --accent1-color: #25a18e;
+}
+
+/* ... Keep all your other existing CSS rules beneath this .../* Root Variables for Colors and Fonts */
 :root {
   --heading-font: 'Arial', sans-serif;
   --primary-color: #004e64;
