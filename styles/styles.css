@@ -8,7 +8,6 @@ nav a {
   color: #fff;
   padding: 0.5rem 1rem;
   display: block;
-  text-decoration: none;
 }
 
 /* --- Heading Styles --- */
@@ -21,7 +20,7 @@ main {
   max-width: 840px;
 }
 
-/* --- Profile Image Styles (all properties required by the audit) --- */
+/* --- Profile Image Styles (All properties requested by the audit) --- */
 main img {
   width: 150px;
   height: auto;
@@ -38,7 +37,6 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;
 }
 
 /* --- Aside Image Layout --- */
