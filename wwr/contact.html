@@ -36,7 +36,7 @@
             (530) 888-6515</p>
 
             <p><strong>Email:</strong><br>
-            <a href="ikonixhvactechnologies@gmail.com">info@ikonixhvactechnologies.com</a></p>
+            <a href="mailto:info@ikonixhvactechnologies.com">info@ikonixhvactechnologies.com</a></p>
 
             <!-- Google Map (inline style="border:0" removed as required) -->
             <iframe 
@@ -69,41 +69,42 @@
         </section>
 
         <!-- Contact Form -->
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="get">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+<section class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="#" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-                <fieldset>
-                    <legend>Purpose of Message:</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
-                        Website Suggestion
-                    </label>
-                </fieldset>
+        <fieldset>
+            <legend>Purpose of Message:</legend>
+            <label for="purpose-general">
+                <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                General Inquiry
+            </label>
+            <label for="purpose-reservation">
+                <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                Reservation Question
+            </label>
+            <label for="purpose-suggestion">
+                <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                Website Suggestion
+            </label>
+        </fieldset>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="newsletter" value="yes">
-                    Please subscribe me to the monthly newsletter
-                </label>
+        <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            Please subscribe me to the monthly newsletter
+        </label>
 
-                <button type="submit">Send Message</button>
-            </form>
+        <button type="submit">Send Message</button>
+    </form>
+    
         </section>
     </main>
 
