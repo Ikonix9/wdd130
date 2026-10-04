@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Exciting Expeditions</title>
+    <meta name="description" content="Contact Exciting Expeditions for questions about white water rafting trips, reservations, or general information. Reach our team today.">
+    <meta name="author" content="Ikechukwu Jude Anukwu">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="images/expedition-logo.jpg" alt="Exciting Expeditions Logo">
+        
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <!-- Company Information + Map -->
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong><br>
+            Osborne road,Lagos Nigeria<br>
+            Zip code:101233</p>
+
+            <p><strong>Phone:</strong><br>
+            +2348183003778<br>
+            (530) 888-6515</p>
+
+            <p><strong>Email:</strong><br>
+            <a href="ikonixhvactechnologies@gmail.com">info@ikonixhvactechnologies.com</a></p>
+
+            <!-- Google Map (inline style="border:0" removed as required) -->
+            <iframe 
+                src="https://maps.google.com/maps?q=Osborne+road,+Lagos+Nigeria+101233&output=embed" 
+                width="100%" 
+                height="300" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/sarah.jpg" alt="Sarah Mitchell - Lead Guide">
+                    <figcaption>Sarah Mitchell<br>Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/marcus.jpg" alt="Marcus Rivera - Safety Coordinator">
+                    <figcaption>Marcus Rivera<br>Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/emily.jpg" alt="Emily Chen - Trip Advisor">
+                    <figcaption>Emily Chen<br>Trip Advisor</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 🚣 Exciting Expeditions 🚣 Ikechukwu Jude Anukwu</p>
+        
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.jpg" alt="LinkedIn Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
+        </nav>
+    </footer>
+
+</body>
+</html>
