@@ -6,15 +6,13 @@
     <title>About Us | Exciting Expeditions</title>
     <meta name="description" content="Learn more about our exciting white water rafting adventures, history, and team at Exciting Expeditions.">
     <meta name="author" content="Ikechukwu Jude Anukwu">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="./styles/rafting.css">
 </head>
 <body>
 
+    <!-- ==================== HEADER SECTION ==================== -->
     <header>
-        <!-- Corrected Logo File Reference -->
         <img class="logo" src="images/expedition-logo.jpg" alt="Exciting Expeditions Logo">
-        
-        <!-- Main Navigation Links (Exactly 4 Links) -->
         <nav class="main-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -23,67 +21,74 @@
         </nav>
     </header>
 
+    <!-- ==================== MAIN CONTENT AREA ==================== -->
     <main>
-        <!-- Restructured Hero Section with h1 and article overlay inside -->
+        
+        <!-- 1. HERO HERO SECTION OVERLAY LAYOUT -->
         <div class="hero">
             <img src="images/hero-banner.jpg" alt="Rafting team navigating intense white water rapids">
             <h1>Exciting Expeditions</h1>
             <article>
-                <img src="images/about-article.jpg" alt="Smiling rafters with safety gear">
                 <p>Here at Exciting Expeditions, our whitewater rafting trips are designed to provide thrill-seekers with an unforgettable experience on the water. Our expert guides ensure safety while you navigate through stunning landscapes and challenging rapids. Oars Up!</p>
+                <img src="images/about-article.jpg" alt="Smiling rafters with safety gear">
             </article>
         </div>
 
-        <!-- Section 1: History -->
+        <!-- 2. HISTORY DATA SECTION -->
         <section class="history-section">
             <h2>History</h2>
             <div class="history-content">
                 <p>Exciting Expeditions was founded in 1995 by a group of adventure enthusiasts who wanted to share their love for the great outdoors. Starting with just a handful of rafts and a passion for exploration, the company has grown into a leading provider of whitewater rafting experiences.</p>
-                <!-- Corrected History Image Reference -->
-                <img src="images/expedition-history-emblem.jpg" alt="Expeditions History Emblem">
+                <img src="images/expedition-history-emblem.jpg" alt="expedition history emblem">
                 <p>Today, we continue that legacy by offering a wide array of excursions suitable for both beginners and experienced rafters alike, maintaining our commitment to conservation and absolute safety on every river run.</p>
             </div>
         </section>
 
-        <!-- Section 2: Adventures Grid Container -->
-        <section class="adventures-section">
+        <!-- 3. HORIZONTAL TRIP GRID CARDS CAROUSEL -->
+        <section class="adventure-section">
             <h2>Adventure Awaits You!</h2>
-            <div class="adventures-grid">
-                <figure>
-                    <img src="images/rafting-down-crisp-fall.jpg" alt="Rafting down crisp falls">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/intense-wave-sequence.jpg" alt="Intense splashing wave sequence">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/steep-rocky-drop.jpg" alt="Steep rocky drops">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/scenic-canyons-views.jpg" alt="Scenic canyons views">
-                    <figcaption>Full Day Eco-Tour</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafters-setting-up-tents.jpg" alt="Rafters setting up tents near river">
-                    <figcaption>Overnight Wilderness</figcaption>
-                </figure>
+            
+            <div class="adventure-grid">
+                
+                <div class="adventure-card">
+                    <img src="images/rafting-down-crisp-fall.jpg" alt="Half Day Adventure">
+                    <h3>Half Day Adventure</h3>
+                </div>
+
+                <div class="adventure-card">
+                    <img src="images/intense-wave-sequence.jpg" alt="Big Mallard">
+                    <h3>Big Mallard</h3>
+                </div>
+
+                <div class="adventure-card">
+                    <img src="images/steep-rocky-drop.jpg" alt="Les Dientes del Diablo">
+                    <h3>Les Dientes del Diablo</h3>
+                </div>
+
+                <div class="adventure-card">
+                    <img src="images/scenic-canyons-views.jpg" alt="Full Day Eco-Tour">
+                    <h3>Full Day Eco-Tour</h3>
+                </div>
+
+                <div class="adventure-card">
+                    <img src="images/rafters-setting-up-tents.jpg" alt="Overnight Wilderness">
+                    <h3>Overnight Wilderness</h3>
+                </div>
+
             </div>
         </section>
+
     </main>
 
+    <!-- ==================== FOOTER SECTION ==================== -->
     <footer>
-        <!-- Corrected Student Name & Single Paragraph -->
-        <p>©2026 🚣 Exciting Expeditions 🚣 Ikechukwu Jude Anukwu</p>
-        
-        <!-- Corrected Social Media Links (Exactly 3 Links with .jpg) -->
-        <nav class="socialmedia">
-            <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook Icon"></a>
-            <a href="https://linkedin.com"><img src="images/linkedin.jpg" alt="LinkedIn Icon"></a>
-            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram Icon"></a>
-        </nav>
-    </footer>
-
+    <p>&copy;2026 Exciting Expeditions | Ikechukwu Jude Anukwu</p>
+    <div class="social-links">
+        <!-- Added explicit width and height attributes directly to the HTML -->
+        <a href="#"><img src="images/facebook.jpg" alt="Facebook" width="30" height="30"></a>
+        <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn" width="30" height="30"></a>
+        <a href="#"><img src="images/instagram.jpg" alt="Instagram" width="30" height="30"></a>
+    </div>
+</footer>
 </body>
 </html>
